@@ -1,0 +1,40 @@
+---
+title: "Developing Data Products - Course Project"
+author: "Prajwol Shrestha"
+output: slidy_presentation
+---
+# Introduction
+This Shiny app presentation is in order to provide overview of my application.
+
+This project will calculate calculate the factorial upto the number the user provides.
+
+
+# Functionality
+- User provides an integer in the input field.
+- Application reads that number and calculates factorial number.
+- Application displays the result.
+
+
+# Calculations
+Application requires following library:
+```{r, echo=TRUE, eval=FALSE}
+library(numbers)
+```
+
+Following formula is used to calculate factorial upto integer n:
+```{r, echo=TRUE, eval=FALSE}
+fact = factorial(n)
+```
+
+# Application URL
+Application is published at the following URL:
+
+https://prjshrestha.shinyapps.io/ShinyAppCourseProject9/
+
+Corresponding code for the same is at:
+
+https://github.com/prjshrestha/DevelopingDataProducts
+
+# Thank You
+Thank You!
+
